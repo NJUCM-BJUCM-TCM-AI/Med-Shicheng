@@ -101,8 +101,8 @@ Med-Shicheng jointly handles **multi-step, structured TCM clinical reasoning** a
 
 1. Thinking and reasoning process over a patient’s clinical case  
 2. TCM knowledge–based **etiology & pathogenesis analysis**  
-3. **Syndrome diagnosis** (辨证论治中的“证”)  
-4. Analysis and determination of **treatment principles** (治则治法)  
+3. **Syndrome diagnosis**
+4. Analysis and determination of **treatment principles** 
 5. **Prescription generation** (including formula composition)  
 6. **Prescription explanation** (rationale, key herbs, compatibility)  
 7. Predicting **symptom evolution** and corresponding **herbal modifications**  
