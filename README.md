@@ -1,11 +1,3 @@
----
-license: mit
-language:
-- en
-base_model:
-- Qwen/Qwen2.5-1.5B
----
-
 <div align="center">
   <img src="./images/med-shicheng.png" width="60%" alt="Med-Shicheng" />
 </div>
@@ -206,6 +198,8 @@ Findings:
 
 ---
 
+## 6. System Requirements
+
 Med-Shicheng is fully supported by recent versions of the Hugging Face `transformers` library.  
 **We strongly recommend using the latest `transformers` release.**
 
@@ -222,7 +216,7 @@ The model weights hosted at Hugging Face (leoliulz/Med-Shicheng) are licensed un
 
 ---
 
-8. Citation
+## 8. Citation
 
 If you find Med-Shicheng useful in your research or applications, please consider citing our work:
 
@@ -235,7 +229,7 @@ If you find Med-Shicheng useful in your research or applications, please conside
 
 ---
 
-9. Contact
+## 9. Contact
 
 For questions, feedback, or collaboration:
 
