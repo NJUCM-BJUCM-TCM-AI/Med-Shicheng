@@ -218,15 +218,12 @@ The model weights hosted at Hugging Face (leoliulz/Med-Shicheng) are licensed un
 
 If you find Med-Shicheng useful in your research or applications, please consider citing our work:
 
-@misc{medshicheng2025,
- 
-  title   = {Med-Shicheng: From Master to Agent, Bridging Generations by the Intelligent Legacy: How Lightweight LLM Standardize the Preserving and Scaling of the Medical Expertise of Human Doctors},
-  
-  author  = {Med-Shicheng Team},
-  
-  year    = {2025},
-  
-  howpublished = {\url{https://njucm-bjucm-tcm-ai.github.io/Med-Shicheng-project_website/}},
+@article{YourPaperKey2024,
+  title={Your Paper Title Here},
+  author={First Author and Second Author and Third Author},
+  journal={Conference/Journal Name},
+  year={2024},
+  url={https://your-domain.com/your-project-page}
 }
 
 ---
