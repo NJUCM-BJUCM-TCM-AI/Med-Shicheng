@@ -61,10 +61,6 @@ Med-Shicheng is built on top of the open-source base model **Qwen2.5-1.5B-Base**
 - We design and train a **TCM-specialized tokenizer** to better capture domain-specific terminology (classical Chinese, syndrome patterns, formula names, decoction variants, etc.), and integrate it into the 1.5B backbone.  
 - We perform **continued pre-training (CPT)** on approximately **1.5 million TCM samples** (clinical cases, textbooks, treatises, teaching materials, etc.), adapting the base model into a **TCM in-domain foundation**.
 
-This domain-adapted base is what we host at:
-
-> **Hugging Face:** https://huggingface.co/leoliulz/Med-Shicheng  
-
 The released weights are thus **not just vanilla Qwen2.5-1.5B-Base**, but a **TCM-augmented base model** with:
 
 - a **custom TCM tokenizer**, and  
