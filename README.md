@@ -173,17 +173,13 @@ Findings:
 
 - <img src="./images/med-shicheng-logo.png" alt="Med-Shicheng icon" width="15" /> **Project Website (full framework, figures & updates)**  
 
-  https://njucm-bjucm-tcm-ai.github.io/Med-Shicheng-project_website/
-
   The website provides:
   - Abstract, motivation, and framework illustrations  
   - Details of evaluation design (LLM-as-judge + human doctors)  
   - Additional context about related works (e.g., Tianyi) and our TCM-AI roadmap  
 
 - 🤗 **Hugging Face Model Hub (Med-Shicheng base model)**  
-
-  https://huggingface.co/leoliulz/Med-Shicheng  
-
+ 
   On Hugging Face, we release the **Med-Shicheng domain-adapted base model** (Qwen2.5-1.5B-Base + TCM tokenizer + CPT on ~1.5M samples), enabling the community to:
 
   - perform further **instruction tuning**,  
