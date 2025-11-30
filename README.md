@@ -114,9 +114,9 @@ Med-Shicheng jointly handles **multi-step, structured TCM clinical reasoning** a
 
 The main release is hosted on Hugging Face as a gated but openly available model (license: MIT):
 
-| Model Name          | Base Model              | Params | Type                                   | Download                                   |
-|---------------------|-------------------------|--------|----------------------------------------|--------------------------------------------|
-| Med-Shicheng-Base   | Qwen2.5-1.5B-Base       | 1.5B   | TCM-domain CPT + custom tokenizer      | 🤗[Hugging Face](https://huggingface.co/leoliulz/Med-Shicheng) |
+| Model | Details | Download |
+|-------|---------|----------|
+| **Med-Shicheng-Base** | Base: Qwen2.5-1.5B-Base<br>Params: 1.5B<br>Type: TCM-domain CPT + custom tokenizer | 🤗 [Hugging Face](https://huggingface.co/leoliulz/Med-Shicheng) |
 
 > **Note:**  
 > Access to the Hugging Face repo is **request-based**. Once access is granted, you can directly download and run the Med-Shicheng base model locally.
