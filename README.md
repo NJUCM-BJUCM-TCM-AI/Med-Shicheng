@@ -8,7 +8,8 @@
          src="https://img.shields.io/badge/🌐 Project%20Website-Med--Shicheng-2563EB?style=for-the-badge" />
   </a>
   <a href="https://huggingface.co/leoliulz/Med-Shicheng">
-    <img src="https://img.shields.io/badge/🤗 HuggingFace-Med--Shicheng-FBBF24?style=for-the-badge&logo=huggingface&logoColor=000000" />
+    <img alt="Hugging Face"
+         src="https://img.shields.io/badge/HuggingFace-Med--Shicheng-FBBF24?style=for-the-badge&logo=huggingface&logoColor=000000" />
   </a>
   <a href="#">
     <img alt="Paper"
