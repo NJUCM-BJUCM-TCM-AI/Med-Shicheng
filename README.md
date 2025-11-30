@@ -4,15 +4,23 @@
 
 <p align="center">
   <a href="https://njucm-bjucm-tcm-ai.github.io/Med-Shicheng-project_website/">
-    <img alt="Project Website" src="https://img.shields.io/badge/Project%20Page-Med--Shicheng-4b9cd3?style=for-the-badge" />
+    <img alt="Project Website"
+         src="https://img.shields.io/badge/🌐 Project%20Website-Med--Shicheng-2563EB?style=for-the-badge" />
   </a>
   <a href="https://huggingface.co/leoliulz/Med-Shicheng">
-    <img alt="Hugging Face" src="https://img.shields.io/badge/HuggingFace-Med--Shicheng-fcc21b?style=for-the-badge&logo=huggingface&logoColor=white" />
+    <img alt="Hugging Face"
+         src="https://img.shields.io/badge/🤗 HuggingFace-Med--Shicheng-FBBF24?style=for-the-badge&logo=huggingface&logoColor=000000" />
+  </a>
+  <a href="#">
+    <img alt="Paper"
+         src="https://img.shields.io/badge/📄 Paper-Coming%20Soon-8B5CF6?style=for-the-badge" />
   </a>
   <a href="LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/License-MIT-44cc11?style=for-the-badge" />
+    <img alt="License"
+         src="https://img.shields.io/badge/📜 License-MIT-22C55E?style=for-the-badge" />
   </a>
 </p>
+
 
 ---
 
@@ -177,7 +185,7 @@ Findings:
 
 ## 5. Project Website & Model Hub
 
-- <img src="./images/med-shicheng-logo.png" alt="Med-Shicheng icon" width="20" /> **Project Website (full framework, figures & updates)**  
+- <img src="./images/med-shicheng-logo.png" alt="Med-Shicheng icon" width="15" /> **Project Website (full framework, figures & updates)**  
 
   https://njucm-bjucm-tcm-ai.github.io/Med-Shicheng-project_website/
 
