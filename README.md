@@ -203,7 +203,6 @@ Med-Shicheng is fully supported by recent versions of the Hugging Face `transfor
 
 When using `transformers < 4.37.0`, you may encounter an error similar to:
 
-``text
 KeyError: 'qwen2'
 
 ---
