@@ -4,23 +4,30 @@
 
 <p align="center">
   <a href="https://njucm-bjucm-tcm-ai.github.io/Med-Shicheng-project_website/">
-    <img alt="Project Website"
-         src="https://img.shields.io/badge/🌐%20Project%20Website-Med--Shicheng-2563EB?style=for-the-badge" />
+    <img
+      alt="Project Website"
+      src="https://img.shields.io/badge/🌐%20Project%20Website-Med--Shicheng-2563EB?style=flat&labelColor=111827"
+    />
   </a>
   <a href="https://huggingface.co/leoliulz/Med-Shicheng">
-    <img alt="Hugging Face"
-         src="https://img.shields.io/badge/🤗%20HuggingFace-Med--Shicheng-FBBF24?style=for-the-badge" />
+    <img
+      alt="Hugging Face"
+      src="https://img.shields.io/badge/🤗%20HuggingFace-Med--Shicheng-FBBF24?style=flat&labelColor=111827"
+    />
   </a>
   <a href="#">
-    <img alt="Paper"
-         src="https://img.shields.io/badge/📄%20Paper-Coming%20Soon-8B5CF6?style=for-the-badge" />
+    <img
+      alt="Paper"
+      src="https://img.shields.io/badge/📄%20Paper-Coming%20Soon-8B5CF6?style=flat&labelColor=111827"
+    />
   </a>
   <a href="LICENSE">
-    <img alt="License"
-         src="https://img.shields.io/badge/📜%20License-MIT-22C55E?style=for-the-badge" />
+    <img
+      alt="License"
+      src="https://img.shields.io/badge/📜%20License-MIT-22C55E?style=flat&labelColor=111827"
+    />
   </a>
 </p>
-
 
 ---
 
@@ -130,7 +137,7 @@ The main release is hosted on Hugging Face as a gated but openly available model
 
 | Model Name          | Base Model              | Params | Type                                   | Download                                   |
 |---------------------|-------------------------|--------|----------------------------------------|--------------------------------------------|
-| Med-Shicheng-Base   | Qwen2.5-1.5B-Base       | 1.5B   | TCM-domain CPT + custom tokenizer      | [Hugging Face](https://huggingface.co/leoliulz/Med-Shicheng) |
+| Med-Shicheng-Base   | Qwen2.5-1.5B-Base       | 1.5B   | TCM-domain CPT + custom tokenizer      | 🤗[Hugging Face](https://huggingface.co/leoliulz/Med-Shicheng) |
 
 > **Note:**  
 > Access to the Hugging Face repo is **request-based**. Once access is granted, you can directly download and run the Med-Shicheng base model locally.
@@ -229,9 +236,13 @@ The model weights hosted at Hugging Face (leoliulz/Med-Shicheng) are licensed un
 If you find Med-Shicheng useful in your research or applications, please consider citing our work:
 
 @misc{medshicheng2025,
+ 
   title   = {Med-Shicheng: From Master to Agent, Bridging Generations by the Intelligent Legacy: How Lightweight LLM Standardize the Preserving and Scaling of the Medical Expertise of Human Doctors},
+  
   author  = {Med-Shicheng Team},
+  
   year    = {2025},
+  
   howpublished = {\url{https://njucm-bjucm-tcm-ai.github.io/Med-Shicheng-project_website/}},
 }
 
