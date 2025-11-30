@@ -227,8 +227,8 @@ If you find Med-Shicheng useful in your research or applications, please conside
 
 For questions, feedback, or collaboration:
 
-GitHub Issues: please open an issue in this repository.
-
-Project Website: see the “Contact us” section on the project page for up-to-date maintainer information and email addresses.
+- **GitHub Issues:** please open an issue in this repository.  
+- **Project Website:** see the footer section of the project page for up-to-date maintainer information and email addresses.
+- **Email:** you can also reach our team at [jdai27@jh.edu](mailto:jdai27@jh.edu).
 
 ---
