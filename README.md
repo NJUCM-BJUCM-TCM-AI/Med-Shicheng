@@ -42,7 +42,7 @@ However, the formation of master physicians’ knowledge systems is **time-consu
 - difficulty in scaling and disseminating high-quality clinical expertise,  
 - and persistent scarcity of advanced clinical resources.
 
-To address these challenges, we propose **Med-Shicheng**, a general framework that enables a lightweight large language model to systematically learn and transfer **distinguished TCM physicians’ diagnostic-and-therapeutic philosophy** and **case-dependent adaptation rules** in a standardized way. Built upon **Tianyi** and implemented on **Qwen2.5-1.5B-Base**, Med-Shicheng:
+To address these challenges, we propose **Med-Shicheng**, a general framework that enables a lightweight large language model to systematically learn and transfer **distinguished TCM physicians’ diagnostic-and-therapeutic philosophy** and **case-dependent adaptation rules** in a standardized way. Implemented on **Qwen2.5-1.5B-Base**, Med-Shicheng:
 
 - internalizes the clinical logic and personal styles of **five National Masters / distinguished TCM physicians**,  
 - handles the full chain from **etiology–pathogenesis** analysis to **prescription and follow-up adjustment**,  
