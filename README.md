@@ -5,19 +5,19 @@
 <p align="center">
   <a href="https://njucm-bjucm-tcm-ai.github.io/Med-Shicheng-project_website/">
     <img alt="Project Website"
-         src="https://img.shields.io/badge/🌐 Project%20Website-Med--Shicheng-2563EB?style=for-the-badge" />
+         src="https://img.shields.io/badge/🌐%20Project%20Website-Med--Shicheng-2563EB?style=for-the-badge" />
   </a>
   <a href="https://huggingface.co/leoliulz/Med-Shicheng">
     <img alt="Hugging Face"
-         src="https://img.shields.io/badge/HuggingFace-Med--Shicheng-FBBF24?style=for-the-badge&logo=huggingface&logoColor=000000" />
+         src="https://img.shields.io/badge/🤗%20HuggingFace-Med--Shicheng-FBBF24?style=for-the-badge" />
   </a>
   <a href="#">
     <img alt="Paper"
-         src="https://img.shields.io/badge/📄 Paper-Coming%20Soon-8B5CF6?style=for-the-badge" />
+         src="https://img.shields.io/badge/📄%20Paper-Coming%20Soon-8B5CF6?style=for-the-badge" />
   </a>
   <a href="LICENSE">
     <img alt="License"
-         src="https://img.shields.io/badge/📜 License-MIT-22C55E?style=for-the-badge" />
+         src="https://img.shields.io/badge/📜%20License-MIT-22C55E?style=for-the-badge" />
   </a>
 </p>
 
