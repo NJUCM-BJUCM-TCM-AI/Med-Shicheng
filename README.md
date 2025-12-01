@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./images/med-shicheng.png" width="80%"/>
+  <img src="./images/med-shicheng.png" width="60%"/>
 </div>
 
 <div align="center">
