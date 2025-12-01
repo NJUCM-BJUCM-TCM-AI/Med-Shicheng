@@ -139,7 +139,7 @@ Our **TCM heritage framework** combines staged data curation with multi-task lea
   <img src="./images/auto-evaluations.png" width="80%" alt="Automatic Evaluations by GPT-5 & DeepSeek-V3.2" />
 </div>
 
-We build an evaluation pipeline that uses **state-of-the-art general LLMs** as judges. For each clinical case, judge models compare the generated answer with the gold label along all seven components and assign holistic scores, which better reflect **long, structured medical outputs** than token-level accuracy.
+We build an evaluation pipeline that uses **state-of-the-art general LLMs** as judges. Each model’s response to a clinical case is scored twice, once by each judge, who compare the generated answer with the gold label and decide how clinically desirable it is.
 
 Key observations:
 
