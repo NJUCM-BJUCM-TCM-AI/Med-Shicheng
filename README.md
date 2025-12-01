@@ -5,7 +5,7 @@
 <div align="center">
 
 [![🌐 Project Website](https://img.shields.io/badge/🌐%20Project%20Website-Med--Shicheng-2563EB?style=flat&labelColor=111827)](https://njucm-bjucm-tcm-ai.github.io/Med-Shicheng-project_website/)
-[![🤗 HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Med--Shicheng-FBBF24?style=flat&labelColor=111827)](https://huggingface.co/leoliulz/Med-Shicheng)
+[![🤗 HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Med--Shicheng-FBBF24?style=flat&labelColor=111827)](https://huggingface.co/MightyAntsGoesUp/Med-Shicheng-1.5B-Base)
 [![📄 Paper](https://img.shields.io/badge/📄%20Paper-Coming%20Soon-8B5CF6?style=flat&labelColor=111827)](#)
 [![📜 License](https://img.shields.io/badge/📜%20License-MIT-22C55E?style=flat&labelColor=111827)](LICENSE)
 
@@ -116,7 +116,7 @@ The main release is hosted on Hugging Face as a gated but openly available model
 
 | Model | Details | Download |
 |-------|---------|----------|
-| **Med-Shicheng-Base** | Base: Qwen2.5-1.5B-Base<br>Params: 1.5B<br>Type: TCM-domain CPT + custom tokenizer | 🤗 [Hugging Face](https://huggingface.co/leoliulz/Med-Shicheng) |
+| **Med-Shicheng-Base** | Base: Qwen2.5-1.5B-Base<br>Params: 1.5B<br>Type: TCM-domain CPT + custom tokenizer | 🤗 [Hugging Face](https://huggingface.co/MightyAntsGoesUp/Med-Shicheng-1.5B-Base) |
 
 > **Note:**  
 > Access to the Hugging Face repo is **request-based**. Once access is granted, you can directly download and run the Med-Shicheng base model locally.
@@ -201,7 +201,7 @@ KeyError: 'qwen2'
 
 ## 7. License
 
-The model weights hosted at Hugging Face (leoliulz/Med-Shicheng) are licensed under MIT as indicated on the model card.
+The model weights hosted at Hugging Face (MightyAntsGoesUp/Med-Shicheng-1.5B-Base) are licensed under MIT as indicated on the model card.
 
 ---
 
