@@ -1,4 +1,4 @@
-Med-Shicheng Non-Commercial License (based on MIT)
+Med-Shicheng Research-Only License (based on MIT)
 
 Copyright (c) 2025 MightyAntsGoesUp
 
@@ -7,41 +7,52 @@ of this software, model weights, and associated documentation files (the
 “Software”), to use, copy, modify, merge, publish, and distribute the
 Software, subject to the following conditions:
 
-1. Non-Commercial Use Only
+1. Research-Only Use
 
-   The Software may only be used for non-commercial purposes, including but
-   not limited to:
+   The Software may only be used for research purposes, including but not
+   limited to:
    - academic research;
-   - personal study and experimentation;
-   - non-commercial open-source projects;
-   - teaching and educational activities.
+   - non-commercial scientific experiments;
+   - benchmarking, analysis, and evaluation for research publications;
+   - teaching and educational activities conducted in a research context.
 
    Any use of the Software, or any derivative works thereof, in or for
-   products or services that are provided in exchange for payment, or that
-   directly or indirectly generate commercial revenue or other commercial
-   advantage, constitutes “Commercial Use” and is NOT permitted under this
-   license.
+   products or services that:
+   - are provided to end users (whether or not for payment),
+   - are deployed in production or operational environments, or
+   - are used for real-world clinical, medical, or other decision-making
+   activities,
+   constitutes “Non-Research Use” and is NOT permitted under this license.
 
 2. Commercial Use and Separate Licensing
 
    Commercial Use of the Software is prohibited unless you obtain prior
-   written permission from the copyright holders.
+   written permission from the copyright holders through a separate license
+   agreement.
 
    If you obtain such permission and are authorized to use the Software in
-   commercial products or services, you must, at a minimum:
-   (a) prominently display the model name “Med-Shicheng” in the user
-       interface of such product or service in a reasonably visible manner
-       (for example, in an “About” page, model attribution section, or
-       similar place); and
+   commercial or other non-research products or services, you must, at a
+   minimum:
+   (a) prominently display the model name “Med-Shicheng” in the user interface
+       of such product or service in a reasonably visible manner (for example,
+       in an “About” page, model attribution section, or similar place); and
    (b) comply with any additional terms and conditions specified in the
-       separate commercial license agreement.
+       separate license agreement.
 
 3. Attribution
 
    The above copyright notice and this permission notice shall be included in
    all copies or substantial portions of the Software.
 
-4. Warranty Disclaimer
+4. Responsibility for Misuse
+
+   Any use of the Software in violation of this License, including but not
+   limited to any Non-Research Use or unauthorized Commercial Use, is entirely
+   at your own risk. You shall bear sole responsibility for any and all
+   consequences arising from such prohibited use, including but not limited to
+   legal, regulatory, ethical, or safety-related consequences.
+
+5. Warranty Disclaimer
 
    THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
