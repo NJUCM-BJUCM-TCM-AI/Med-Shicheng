@@ -201,7 +201,7 @@ KeyError: 'qwen2'
 
 ## 7. License
 
-The model weights hosted at Hugging Face (MightyAntsGoesUp/Med-Shicheng-1.5B-Base) are licensed under MIT as indicated on the model card.
+The model weights hosted at Hugging Face (MightyAntsGoesUp/Med-Shicheng-1.5B-Base) are licensed under Research-only as indicated on the model card.
 
 ---
 
