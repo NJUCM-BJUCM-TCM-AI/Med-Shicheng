@@ -3,20 +3,20 @@ Med-Shicheng Research-Only License (based on MIT)
 Copyright (c) 2025 MightyAntsGoesUp
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software, model weights, and associated documentation files (the
+of this model weights, and associated documentation files (the
 “Software”), to use, copy, modify, merge, publish, and distribute the
 Software, subject to the following conditions:
 
 1. Research-Only Use
 
-   The Software may only be used for research purposes, including but not
+   The Model may only be used for research purposes, including but not
    limited to:
    - academic research;
    - non-commercial scientific experiments;
    - benchmarking, analysis, and evaluation for research publications;
    - teaching and educational activities conducted in a research context.
 
-   Any use of the Software, or any derivative works thereof, in or for
+   Any use of the Model, or any derivative works thereof, in or for
    products or services that:
    - are provided to end users (whether or not for payment),
    - are deployed in production or operational environments, or
@@ -26,11 +26,11 @@ Software, subject to the following conditions:
 
 2. Commercial Use and Separate Licensing
 
-   Commercial Use of the Software is prohibited unless you obtain prior
+   Commercial Use of the Model is prohibited unless you obtain prior
    written permission from the copyright holders through a separate license
    agreement.
 
-   If you obtain such permission and are authorized to use the Software in
+   If you obtain such permission and are authorized to use the Model in
    commercial or other non-research products or services, you must, at a
    minimum:
    (a) prominently display the model name “Med-Shicheng” in the user interface
@@ -42,22 +42,21 @@ Software, subject to the following conditions:
 3. Attribution
 
    The above copyright notice and this permission notice shall be included in
-   all copies or substantial portions of the Software.
+   all copies or substantial portions of the Model.
 
 4. Responsibility for Misuse
 
-   Any use of the Software in violation of this License, including but not
+   Any use of the Model in violation of this License, including but not
    limited to any Non-Research Use or unauthorized Commercial Use, is entirely
    at your own risk. You shall bear sole responsibility for any and all
    consequences arising from such prohibited use, including but not limited to
    legal, regulatory, ethical, or safety-related consequences.
 
 5. Warranty Disclaimer
-
-   THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   THE MODEL IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-   DEALINGS IN THE SOFTWARE.
+   FROM, OUT OF OR IN CONNECTION WITH THE MODEL OR THE USE OR OTHER
+   DEALINGS IN THE MODEL.
