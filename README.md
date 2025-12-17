@@ -14,7 +14,7 @@
 
 ---
 
-Med-Shicheng: From Master to Agent, Bridging Generations by the Intelligent Legacy — How Lightweight LLM Standardize the Preserving and Scaling of the Medical Expertise of Human Doctors
+Med-Shicheng: From Physician Expertise to Clinical Agents: Preserving, Standardizing, and Scaling Physicians' Medical Expertise with Lightweight LLM
 
 ---
 
