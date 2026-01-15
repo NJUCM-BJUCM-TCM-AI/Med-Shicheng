@@ -211,12 +211,15 @@ The model weights hosted at Hugging Face (MightyAntsGoesUp/Med-Shicheng-1.5B-Bas
 
 If you find Med-Shicheng useful in your research or applications, please consider citing our work:
 
-@article{YourPaperKey2024,
-  title={Your Paper Title Here},
+```bibtex
+@article{medshicheng2026,
+  title={Med-Shicheng:From Physician Expertise to Clinical Agents: Preserving, Standardizing, and Scaling Physicians' Medical Expertise with Lightweight LLM},
   author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+  year={2026},
+  eprint={COMING SOON},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={arXiv:COMING\_SOON},
 }
 
 ---
