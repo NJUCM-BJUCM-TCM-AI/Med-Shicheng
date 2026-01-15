@@ -13,9 +13,9 @@
 
 
 ---
-
+<div align="center">
 From Physician Expertise to Clinical Agents: Preserving, Standardizing, and Scaling Physicians' Medical Expertise with Lightweight LLM
-
+</div>
 ---
 
 ## Table of Contents
