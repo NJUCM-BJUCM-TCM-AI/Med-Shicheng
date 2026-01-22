@@ -214,7 +214,7 @@ If you find Med-Shicheng useful in your research or applications, please conside
 ```bibtex
 @article{medshicheng2026,
   title={Med-Shicheng:From Physician Expertise to Clinical Agents: Preserving, Standardizing, and Scaling Physicians' Medical Expertise with Lightweight LLM},
-  author={First Author and Second Author and Third Author},
+  author={TODO},
   year={2026},
   eprint={COMING SOON},
   archivePrefix={arXiv},
