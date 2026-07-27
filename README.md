@@ -124,7 +124,7 @@ The main release is hosted on Hugging Face as a gated but openly available model
 > Access to the Hugging Face repository is **gated and manually reviewed**. Before requesting model access, please complete the following steps:  
 > 1. Download and complete either the [**Chinese application form**](./application_forms/Med-Shicheng_Model_Access_Application_Form_CN.docx) or the [**English application form**](./application_forms/Med-Shicheng_Model_Access_Application_Form_EN.docx).  
 > 2. Email the completed application form to [**zhiliu@njucm.edu.cn**](mailto:zhiliu@njucm.edu.cn).  
-> 3. After sending the application form, submit an access request on the [**Hugging Face model**](https://huggingface.co/MightyAntsGoesUp/Med-Shicheng-1.5B-Base).  
+> 3. After sending the application form, submit an access request on the [**Hugging Face**](https://huggingface.co/MightyAntsGoesUp/Med-Shicheng-1.5B-Base).  
 >  
 > Each application will be reviewed individually. Approved applicants will be notified by email and granted access through Hugging Face. Please ensure that the **Hugging Face username** and **contact email** provided in the form correspond to the account used for the access request.
 
