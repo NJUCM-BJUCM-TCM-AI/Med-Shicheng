@@ -15,7 +15,7 @@
 ---
 
 <div align="center">
-From Physician Expertise to Clinical Agents: Preserving, Standardizing, and Scaling Physicians' Medical Expertise with Lightweight LLM
+From Physician Expertise to Clinical Reasoning: Preserving, Standardizing, and Scaling Heterogeneous Diagnostic–Therapeutic Knowledge from Multiple Clinicians with a Lightweight Language Model
 </div>
 
 ---
@@ -26,11 +26,12 @@ From Physician Expertise to Clinical Agents: Preserving, Standardizing, and Scal
 2. [Model Summary](#2-model-summary)  
 3. [Model Downloads](#3-model-downloads)  
 4. [Evaluation Results](#4-evaluation-results)  
-5. [Project Website & Model Hub](#5-project-website--model-hub)  
-6. [System Requirements](#6-system-requirements)  
-7. [License](#7-license)  
-8. [Citation](#8-citation)  
-9. [Contact](#9-contact)  
+5. [Prompts & Evaluation Standards](#5-prompts--evaluation-standards)  
+6. [Project Website & Model Hub](#6-project-website--model-hub)  
+7. [System Requirements](#7-system-requirements)  
+8. [License](#8-license)  
+9. [Citation](#9-citation)  
+10. [Contact](#10-contact)  
 
 ---
 
@@ -176,7 +177,21 @@ Findings:
 
 ---
 
-## 5. Project Website & Model Hub
+## 5. Prompts & Evaluation Standards
+
+The [`Prompt/`](./Prompt) folder collects, in plain text, the materials from Appendices A and B of the paper's supplementary materials, so they can be reused directly:
+
+| File | Source | Content |
+|------|--------|---------|
+| [`CoT_Strategy_TCM.txt`](./Prompt/CoT_Strategy_TCM.txt) | Appendix A.1 | The unified 8-step chain-of-thought template (`<think>…</think>\n<output>…</output>`) used to expand TCM clinical cases into a reasoning trace plus structured output. |
+| [`CoT_Strategy_Modern_Medicine.txt`](./Prompt/CoT_Strategy_Modern_Medicine.txt) | Appendix A.2 | The corresponding conceptual mapping and seven-step clinical reasoning paradigm for modern-medicine clinics. |
+| [`Evaluation_Standards.txt`](./Prompt/Evaluation_Standards.txt) | Appendix B.1 | Delphi-based construction of the evaluation framework: main dimensions, sub-dimensions, evaluator credentials, and item weights (Tables 1–3). |
+| [`Eval_Prompt_DeepSeek-V3.2.txt`](./Prompt/Eval_Prompt_DeepSeek-V3.2.txt) | Appendix B.2 | Full SYSTEM / USER evaluation prompt (55-point rubric with JSON output format) used with DeepSeek-V3.2 as an automatic judge. |
+| [`Eval_Prompt_GPT-5.2.txt`](./Prompt/Eval_Prompt_GPT-5.2.txt) | Appendix B.2 | JSON Schema for GPT-5.2 structured-output evaluation (same prompt and criteria as the DeepSeek-V3.2 version). |
+
+---
+
+## 6. Project Website & Model Hub
 
 - <img src="./images/med-shicheng-logo.png" alt="Med-Shicheng icon" width="15" /> **Project Website (full framework, figures & updates)**  
 
@@ -195,7 +210,7 @@ Findings:
 
 ---
 
-## 6. System Requirements
+## 7. System Requirements
 
 Med-Shicheng is fully supported by recent versions of the Hugging Face `transformers` library.  
 **We strongly recommend using the latest `transformers` release.**
@@ -206,19 +221,19 @@ KeyError: 'qwen2'
 
 ---
 
-## 7. License
+## 8. License
 
 The model weights hosted at Hugging Face (MightyAntsGoesUp/Med-Shicheng-1.5B-Base) are licensed under Research-Only as indicated on the model card.
 
 ---
 
-## 8. Citation
+## 9. Citation
 
 If you find Med-Shicheng useful in your research or applications, please consider citing our work:
 
 ```bibtex
 @article{medshicheng2026,
-  title={Med-Shicheng:From Physician Expertise to Clinical Agents: Preserving, Standardizing, and Scaling Physicians' Medical Expertise with Lightweight LLM},
+  title={Med-Shicheng: From Physician Expertise to Clinical Reasoning: Preserving, Standardizing, and Scaling Heterogeneous Diagnostic–Therapeutic Knowledge from Multiple Clinicians with a Lightweight Language Model},
   author={TODO},
   year={2026},
   eprint={COMING SOON},
@@ -230,7 +245,7 @@ If you find Med-Shicheng useful in your research or applications, please conside
 
 ---
 
-## 9. Contact
+## 10. Contact
 
 For questions, feedback, or collaboration:
 
