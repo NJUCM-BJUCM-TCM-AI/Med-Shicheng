@@ -49,7 +49,7 @@ To address these challenges, we propose **Med-Shicheng**, a general framework th
 
 - internalizes the clinical logic and personal styles of **five National Masters / distinguished TCM physicians**,  
 - handles the full chain from **etiology–pathogenesis** analysis to **prescription and follow-up adjustment**,  
-- and can be deployed on **resource-constrained GPUs**, while achieving **performance comparable to large frontier models such as DeepSeek-R1 and GPT-5** in our evaluation settings.
+- and can be deployed on **resource-constrained GPUs**, while achieving **performance comparable to large frontier models such as DeepSeek-R1 and GPT-5.2** in our evaluation settings.
 
 **Key highlight:** Med-Shicheng achieves **SOTA performance in multi-master personalized TCM**, standing out as the **only lightweight model** in the top tier while competing with hundred-billion-parameter general LLMs.
 
@@ -144,7 +144,7 @@ Our **TCM heritage framework** combines staged data curation with multi-task lea
 ### 4.2 Automatic Evaluation (LLM-as-a-Judge)
 
 <div align="center">
-  <img src="./images/auto-evaluations.png" width="80%" alt="Automatic Evaluations by GPT-5 & DeepSeek-V3.2" />
+  <img src="./images/auto-evaluations.png" width="80%" alt="Automatic Evaluations by DeepSeek-V3.2 & GPT-5.2" />
 </div>
 
 We build an evaluation pipeline that uses **state-of-the-art general LLMs** as judges. Each model’s response to a clinical case is scored twice, once by each judge, who compare the generated answer with the gold label and decide how clinically desirable it is.
@@ -152,7 +152,7 @@ We build an evaluation pipeline that uses **state-of-the-art general LLMs** as j
 Key observations:
 
 - Models form **two performance tiers**.  
-- The **top tier** includes: **Med-Shicheng, GPT-5, DeepSeek-R1, Qwen3-235B-A22B-Thinking, Gemini-2.5-Pro**.  
+- The **top tier** includes: **Med-Shicheng, GPT-5.2, DeepSeek-R1, Qwen3-235B-A22B-Thinking, Gemini-3-Pro**.  
 - **Med-Shicheng is the only lightweight model** in this tier, showing competitive clinical quality despite its small parameter count.
 
 ### 4.3 Human Doctor Evaluation
