@@ -1,0 +1,84 @@
+Chain of Thought Strategy for Modern Medicine Clinics
+Source: Med-Shicheng supplemental materials, Appendix A.2
+============================================================
+
+A similar diagnosis and treatment strategy and formation for the modern medicine clinic can also be constructed accordingly:
+
+1. Conceptual Correspondence in Modern Medicine
+
+The core objective is to enable the model to learn the underlying reasoning logic across complex cases, rather than simply memorizing static mappings between symptoms, patterns, and prescriptions. Thus, in modern medicine, this can be correspond to the following components:
+
+1. Expert-Level Disease Concepts and Theoretical Systems
+   This corresponds to how leading clinical experts in a given field conceptualize disease, including:
+  - Their particular understanding of pathophysiology (e.g., an expert in heart failure emphasizing the integrated “heart–kidney–metabolic” axis).
+  - Their customized subtyping systems (e.g., refined stratification of disease phenotypes or risk categories).
+  - Their self-developed clinical pathways or diagnostic–therapeutic schemas (e.g., decision trees and structured workflows).
+2. Distinctive Diagnostic and Therapeutic Techniques
+   This corresponds to:
+  - Diagnostic level: unique approaches to differential diagnosis, characteristic weighting and prioritization of clinical signs, laboratory values, and imaging findings, and specific triggers for suspecting rare or atypical diseases.
+  - Therapeutic level: distinctive drug selection and titration strategies, preferred combinations of therapies, decisions on timing and indications for escalation to interventional or surgical procedures, and nuances in perioperative or critical care management.
+3. Monographs, Reviews, and Case-Based Theoretical Expositions
+   This includes:
+  - Expert-authored monographs and specialty textbooks, contributions to clinical guidelines, and high-impact narrative or systematic reviews.
+  - Records of ward rounds, multidisciplinary discussions, and case conferences.
+  - Case reports and case series in which complex or rare cases are analyzed in depth, including rationale for each diagnostic and therapeutic decision.
+4. Real Clinical Cases and Systematic Case Analyses
+   This comprises:
+  - High-quality electronic health records with longitudinal follow-up.
+  - Typical and atypical cases from expert outpatient clinics.
+  - Multidisciplinary team (MDT) consultation records and critical care logs.
+  - Documentation of adverse outcomes and failed treatments, together with reflective analyses, which are crucial for training robust clinical reasoning.
+
+Taken together, what needs to be “inherited” in modern medicine is not merely the correctness of individual diagnoses or treatments in isolation, but an expert’s integrated disease model and decision-making strategy. The goal is to capture the full reasoning process that underlies the continuum from problem recognition, through diagnosis and treatment, to explanation and follow-up adjustment.
+
+2. A Seven-Step Clinical Reasoning Paradigm in Modern Medicine
+
+The TCM application organizes reasoning into seven interconnected tasks (e.g., aetiology–pathogenesis analysis, pattern differentiation, therapeutic method selection, prescription design, formula explanation, reflection of the master’s theory, and adjustment according to symptom evolution). In modern medicine, a similar process can be formulated as follows:
+
+1. Etiology and Pathophysiology Analysis
+   This step corresponds to TCM aetiology–pathogenesis analysis and focuses on:
+  - Identifying the primary etiological factors (infection, autoimmunity, genetic defects, metabolic disorders, environmental exposures, lifestyle factors, etc.).
+  - Analyzing the key pathophysiological pathways (e.g., renin–angiotensin–aldosterone system activation, inflammatory cascades, endothelial dysfunction, disordered coagulation).
+  - Explaining the relationships between clinical findings (signs, symptoms, tests) and the underlying mechanisms.
+2. Diagnosis and Differential Diagnosis
+   This step parallels pattern differentiation and includes:
+  - Defining the working diagnosis, supported by integrated clinical reasoning.
+  - Enumerating and prioritizing differential diagnoses, specifying supporting and refuting evidence for each candidate disease.
+  - Explicitly linking diagnostic hypotheses to the data sources: medical history, physical examination, imaging, laboratory parameters, genetic or molecular tests, and functional assessments.
+3. Therapeutic Goals and Overall Strategy
+   This corresponds to determining the “therapeutic principle” in TCM:
+  - Defining short-term goals (e.g., symptom relief, hemodynamic stabilization, control of infection).
+  - Defining mid- and long-term goals (e.g., improving survival, preserving organ function, preventing complications and readmissions, enhancing quality of life).
+  - Selecting the overarching treatment pathway:
+    - Predominantly pharmacological versus early interventional or surgical approaches.
+    - Conservatively stepwise escalation versus proactive, early intensive treatment.
+    - Curative intent versus supportive, rehabilitative, or palliative focus.
+4. Design of the Concrete Treatment Regimen
+   This step corresponds to prescription design in TCM:
+  - Drug therapy:
+    - Selecting first-line and second-line medications and their combinations.
+    - Determining dosages, titration schedules, routes of administration, and duration of therapy.
+    - Identifying and managing potential drug–drug interactions, contraindications, and patient-specific risks.
+  - Non-pharmacological interventions:
+    - Planning surgical or interventional procedures and perioperative care.
+    - Determining required monitoring intensity (e.g., general ward vs. high-dependency unit vs. ICU).
+    - Designing lifestyle modifications, rehabilitation programs, and psychological or social support.
+5. Mechanistic and Evidence-Based Justification
+   This corresponds to the detailed “formula explanation” in TCM:
+  - Providing a mechanistic rationale for each major intervention (e.g., how a given drug modifies neurohormonal activation, inflammatory responses, ventricular remodeling, or metabolic pathways).
+  - Citing the key evidence base that supports the decision (e.g., landmark randomized controlled trials, meta-analyses, and guideline recommendations with strength-of-evidence grading).
+  - Explaining why apparently plausible alternatives are not recommended, whether due to insufficient evidence, unfavorable risk–benefit balance, or patient-specific contraindications.
+6. Expression of Individualized Expert Clinical Philosophy
+   This step parallels the manifestation of a renowned TCM physician’s distinctive diagnostic and therapeutic philosophy:
+  - Demonstrating how, within the same guideline framework, an expert re-calibrates risk–benefit judgments (e.g., opting for earlier combination therapy, or conversely, adhering to a more conservative titration in complex comorbid profiles).
+  - Showing characteristic strategies for special populations (e.g., the very elderly, pregnant patients, individuals with rare comorbidities or extreme frailty).
+  - Encoding the expert’s tacit rules-of-thumb and heuristics, such as specific patterns of subtle clinical or laboratory changes that trigger pre-emptive regimen adjustments.
+7. Prediction of Disease Trajectory and Dynamic Treatment Adaptation
+   This corresponds to anticipating symptom evolution and adjusting the prescription or “adding/removing herbs” in TCM:
+  - Predicting short- and long-term trajectories, including risks of complications (e.g., decompensated heart failure, progressive renal dysfunction, thromboembolic or hemorrhagic events).
+  - Planning follow-up and re-evaluation schedules, specifying which parameters should be monitored (imaging, laboratory markers, functional scores, patient-reported outcomes).
+  - Defining explicit if–then adaptation rules, such as:
+    - If specific thresholds or trends in biomarkers, imaging findings, or clinical status are observed, then escalate, de-escalate, or switch therapies accordingly.
+  - Integrating unexpected responses or adverse events into a continuous learning loop, refining future decisions for similar patient profiles.
+
+This paradigm provides a structurally parallel, modern-medical formulation of the original TCM-inspired framework and can serve as a conceptual foundation for training and evaluating domain-specific clinical reasoning models with Med-shicheng framework.

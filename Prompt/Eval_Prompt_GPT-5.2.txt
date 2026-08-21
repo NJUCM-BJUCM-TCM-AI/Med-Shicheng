@@ -1,0 +1,87 @@
+Evaluation Instruction prompt for GPT-5.2
+Source: Med-Shicheng supplemental materials, Appendix B.2
+============================================================
+
+The SYSTEM PROMPT, USER PROMPT and the detailed evaluation criteria used for GPT-5.2 are identical to those used for DeepSeek-V3.2 (see Eval_Prompt_DeepSeek-V3.2.txt). The only difference is that GPT-5.2 is called with structured output, using the JSON Schema below as the response format.
+
+EVALUATION_JSON_SCHEMA: Dict[str, Any] = {
+    "name": "tcm_evaluation",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "Response Completeness": {
+                "type": "object",
+                "properties": {
+                    "score": {"type": "number"},
+                    "Number of Items Actually Answered": {"type": "number"},
+                    "Total Number of Items Requiring Responses": {"type": "number"},
+                    "Missing Item": {"type": "array", "items": {"type": "string"}}
+                },
+                "required": ["score", "Number of Items Actually Answered", "Total Number of Items Requiring Responses", "Missing Item"],
+                "additionalProperties": False
+            },
+            "Analysis of Etiology and Pathogenesis": {
+                "type": "object",
+                "properties": {
+                    "score": {"type": "number"},
+                    "Recognition of Etiology": {"type": "number"},
+                    "Description of Pathogenesis": {"type": "number"},
+                    "Logical Coherence": {"type": "number"}
+                },
+                "required": ["score", "Recognition of Etiology", "Description of Pathogenesis", "Logical Coherence"],
+                "additionalProperties": False
+            },
+            "Syndrome Differentiation": {
+                "type": "object",
+                "properties": {
+                    "score": {"type": "number"},
+                    "Accuracy of Syndrome": {"type": "number"},
+                    "Disease Location and Nature": {"type": "number"}
+                },
+                "required": ["score", "Accuracy of Syndrome", "Disease Location and Nature"],
+                "additionalProperties": False
+            },
+            "Treatment Principle": {
+                "type": "object",
+                "properties": {
+                    "score": {"type": "number"},
+                    "Accuracy of Treatment Principle": {"type": "number"},
+                    "Specificity of Treatment Method": {"type": "number"},
+                    "Application of Specialized Methods": {"type": "number"}
+                },
+                "required": ["score", "Accuracy of Treatment Principle", "Specificity of Treatment Method", "Application of Specialized Methods"],
+                "additionalProperties": False
+            },
+            "TCM Prescription": {
+                "type": "object",
+                "properties": {
+                    "score": {"type": "number"},
+                    "Medicinal Match Score": {"type": "number"},
+                    "Number of matched herbs": {"type": "number"},
+                    "Number of Herbs in Label Prescription": {"type": "number"},
+                    "Number of Herbs in Model-Generated Prescription": {"type": "number"},
+                    "The List of Overlapped Herbs in both TCM Prescriptions": {"type": "array", "items": {"type": "string"}},
+                    "Matching rates": {"type": "string"}
+                },
+                "required": ["score", "Medicinal Match Score", "Number of matched herbs", "Number of Herbs in Label Prescription", "Number of Herbs in Model-Generated Prescription", "The List of Overlapped Herbs in both TCM Prescriptions", "Matching rates"],
+                "additionalProperties": False
+            },
+            "Distinguished Theory application": {
+                "type": "object",
+                "properties": {
+                    "score": {"type": "number"},
+                    "Accuracy of Academic Thought": {"type": "number"},
+                    "Pervasiveness of Thought": {"type": "number"},
+                    "Completeness of Elaboration": {"type": "number"}
+                },
+                "required": ["score", "Accuracy of Academic Thought", "Pervasiveness of Thought", "Completeness of Elaboration"],
+                "additionalProperties": False
+            },
+            "Total Score": {"type": "number"},
+            "Maximum Score": {"type": "number"}
+        },
+        "required": ["Response Completeness", "Analysis of Etiology and Pathogenesis", "Syndrome Differentiation", "Treatment Principle", "TCM Prescription", "Distinguished Theory application", "Total Score", "Maximum Score"],
+        "additionalProperties": False
+    },
+    "strict": True
+}
